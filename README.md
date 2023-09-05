@@ -32,3 +32,13 @@ I explored different pages of the website extracting information as in book titl
 was collect and processed it was then saved as a pandas data frame. With the data ready to be handled I wanted to test
 te correlation between the length of the title of the book with its rating. It resulted in an R coefficient of 
 -0.3273372802263818 stating the two values are not co related.
+
+### Stock Analysis
+In this project I gather information on tesla stocks (TLSA) and game stop stocks (GME). I gather history of the stock past 
+worth using the yfiance python module and used the Ticker class then the history() method on the instance to do so. I also 
+parsed a website using BeautifulSoup module to extract data on the revenue of the stocks by extracting the table with the data
+ from the website. The websites I got the data from was [Tesla](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork/labs/project/revenue.htm) and [Game Stop](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0220EN-SkillsNetwork/labs/project/stock.html).
+ ##### Purpose
+ I was able to display the data in a graph to see if the trend of the stock values and determine if it will be a safe investment to 
+ buy some tesla or game stop stocks
+ 
